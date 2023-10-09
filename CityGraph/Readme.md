@@ -24,10 +24,15 @@ https://api.openrouteservice.org/v2/directions/driving-car
 
 
 **Code Example**
+
 	>>> G = RandomGraph.Graph()          # Created Graph object.
+ 
 	>>> G.add_nodes(df['nodes'])         # Adding the edges to the graph object.
+ 
 	>>> G.randomGraphCreater(dropout)    # Creating the random connect graph from the complete graph.
+ 
 	### Dropout means how much fraction of edges you want to drop from the Graph. 
+ 
 	### ( Note:- For randomGraphCreater first you should have complete graph in the graph object G.)
 
 
